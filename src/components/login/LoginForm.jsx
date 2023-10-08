@@ -42,7 +42,7 @@ const LoginForm = () => {
 
   return (
     <div className="p-10 bg-primary rounded-md min-w-[400px]">
-      <h1 className="text-2xl text-white text-center mb-5">Blog Management</h1>
+      <h1 className="text-2xl text-white text-center mb-5">Book Store Management</h1>
       {errorMessage && <p className="text-red-500 mt-2">{errorMessage}</p>}
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-5">
